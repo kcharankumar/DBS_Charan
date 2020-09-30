@@ -1,9 +1,9 @@
 1. Display 6 messages using 6 headers.
-2. Write a HTML file to display any technology using <p> tag.
-3. Write a HTML to display 5 images as tag. On click of that image display the information about that image in a page.
+2. Write a HTML file to display information on latest technology of any topic using <p> tag.
+3. Write a HTML to display 5 images as tags. On click of that image display the information about that image in a page.
 4. Create 5 hyperlinks and on click of that hyperlinks, open its corresponding website in a new page.
 5. Write a HTML to demonstrate opacity of a image.
 6. Write HTML to display your resume using <pre> tag.
-7. Modify the program 4 and have 4 different colors for each hyperlink for anchor link, anchor visited, anchor hover, anchor active.
+7. Modify the HTML of line 4 and have different colors for each hyperlink for anchor link, anchor visited, anchor hover, anchor active.
 8. Create a simple website of your favorite destination.  Have background image added to your website.
 9. Modify the above HTML to have the styling done through css and link this css file externally.
