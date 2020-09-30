@@ -1,0 +1,72 @@
+I. Git branch and merge
+1. Create a branch 
+2. List the branches.
+3. Move to the newly created branch using git checkout.
+4. modify the changes in the branch and commit the changes.
+5. Merge back with the main branch and verify the modified changes are reflected in the branch.
+6. Add a new line in the file which is taken from the main branch and merge in the main branch.
+
+II. git ignore
+1. create a .gitignore file
+2. add which file to be ignored in the list. (For example MyFile.txt)
+3. Try to add this file (MyFile.txt) to staging area.  It gives the warning saying that it is in the ignored list.
+4. Push the contents on remote server, check the new file created MyFile.txt will not be on github because it is nt on staging area.
+
+III. Create a new file and commit it... Remove this only from the repository and not from the local directory.
+<hint : Try git rm --cached <file name>
+
+Iv. Git stash
+1. create a new branch test.
+2. switch to that branch using git checkout.
+3. List all the branches.
+4. create two files.  Add one file to staging area.
+5. stash it using git stash.
+6. Go to master branch.
+7. Come back to test branch.
+8. check the status. (git status)
+9. Apply stash using git stash apply.
+10. Now check the status using git status.
+
+V. git show head
+1. Create a file and commit it in repository.
+2. display the head location.
+3. Checkout the same with git log.  Head location id should be the same in both the places.
+4. mak the changes to the file and commit it.
+5. Now check the position of head, it should have changed from the previous head id.
+
+VI.
+git remote
+1. Check the current remote status (git remote -v)
+2. set up the remote connection with the remote server (with github using git remote add)
+3. Check the status of remote connection.
+4. create a new file in the remote server and pull (You can use git pull).
+5. Verify the file is pulled from the remote server.
+6. Remove the remote server connection.
+7. Check whether the remote server connection is lost.
+
+VII
+git revert
+1. create a file and commit it.
+2. Check the head id using git log.
+3. Modify this file and commit it.
+4. Revert the committed changes.
+5. After reverting, it should reflect the old changes. Verify it.
+
+VIII.
+git tag.
+1. Create 3 files (file1, file2, file3). Add some content to it.
+2. Commit these 3 files.
+3. create a tag for these files (git tag version1.0)
+4. show all the tags (git tag)
+5. display the content of the tag version1.0 (git show version1.0)
+6. Modify these files (file1, file2, file3) and commit the changes.
+7. Add another tag as version2.0
+8. Display the content of the files of version2.0
+9. checkout the files of version1.0 and see the content of these files.
+10. Checkout the tag of version2.0 and see the content of these files (file1, file2, file3).
+
+IX.
+git mv
+1. Create a file with a text in it and commit it.
+2. Rename the file using git mv
+3. check the file explorer and verify the filename is modified and file content is the same.
