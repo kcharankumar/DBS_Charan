@@ -1,0 +1,33 @@
+DAY 1 Assignment
+1. Display 6 messages using 6 headers.
+2. Write a HTML file to display any technology using <p> tag.
+3. Write a HTML to display 5 images as tag. On click of that image display the information about that image in a page.
+4. Create 5 hyperlinks and on click of that hyperlinks, open its corresponding website in a new page.
+5. Write a HTML to demonstrate opacity of a image.
+6. Write HTML to display your resume using <pre> tag.
+7. Modify the program 4 and have 4 different colors for each hyperlink for anchor link, anchor visited, anchor hover, anchor active.
+8. Create a simple website of your favorite destination.  Have background image added to your website.
+9. Modify the above HTML to have the styling done through css and link this css file externally.
+
+
+
+
+DAY 2 Assignment
+10. Write a HTML to display 10 employee records using HTML tables.  Table should have the following fields.
+   (a) ID (b) Name (c) Dept (d) Desination.
+11. Write a HTML to demonstrate rowspan and colspan of tables in HTML.
+12. Write a HTML to display login form.
+13. Write a HTML to display bank account opening form.  It should have all the controls like checkboxes, radiobuttons, edit box, text area, date picker, email field, 
+14. Write a HTML to display forgot password form.
+15. Apply all the below given concepts of UX and modify the developed website.
+     (1) Introduction to UX Design
+      (2) User-Centered Design (UCD) and Design Thinking
+      (3)  User Research and Personas
+      (4) Usability Analysis
+      (5) Empathy Mapping, Personas & Scenarios
+      (6)Design for Mobile
+      (7) Lean UX
+      (8) Content Strategy
+      (9) Sketching, Wireframing, Prototyping
+     (10) Visual Design
+     (11) Research Evaluation
