@@ -1,0 +1,15 @@
+1. Write type script to display 10 even numbers.
+2. Write a typescript to find a factorial of a numbrer.
+3. Write a typescript to generate 10 fibonacci numbers.
+4. Write a typescript to generate 10 prime numbers.
+5. Modify the above programs using functions.  Function will receive the arguments as n and generate as specified.
+6. Create a tuple with an employee record with the fields ID, Name, Dept, Designation and salary and display the tuple data.  Modify the tuple data with another record and display the modified data.
+7. Write a function to take union data type of number or string and check whether the given data is palidrome or not.  Test this function with both numeric and string data.
+8. Write an employee class with attributes ID, name, dept and designation.  Initialize them in the constructor and display the result.  Add constructor with arguments and pass the data while creating the object and display the employee data.  Have a function by name display() to display the employee data.
+9.  Write a typescript to demonstrate inheritance.  Have a baseclass as Employee, and derived classes as regular_employee and contract_employee.  Regular employee works on per month package and contact_employee works on a contract basis and is paid per hr.  Decide the desired fields accordinly in each of the class and also demostrate method overriding.
+10. Repeat the same program as show in the class on data hiding.
+11. Create a class student.  Have the fields ID, Name, stream.  Define these fields as private and display the content of them using a public function.
+12.  Repeat the same program shown in the class for bank interface.
+13. Repeat the above program with student domain rather than banking domain.
+14. All the programs shown in the class should be typed and should see the result.
+15. Install angular and create a new app, start the server and see the output.
