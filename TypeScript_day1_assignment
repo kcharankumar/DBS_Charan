@@ -1,0 +1,13 @@
+1. Javascript assignments or practice.
+1. Write a typescript to display your name.  Modify this code to display about your Engineering stream.  What is the best you liked in your engineering.  It could be your final year project.
+2. Add the single line comments and multiline comments to the above program and see the output.
+(Hint : // for single line comments and /* */ For multiline comments.
+3. Write a typescript to initialize 2 numbers and perform +, -, *, / and % and display the result.
+4. Write a typescript to concatenate 2 strings and displays its result.
+5. Define global variables, class variable, function local varaible and static variables and assign values to it and display outside the class.
+6. Write a typescript to check the number is even or odd using ternary operator.
+7. Write a typescript to check given number is positive, zero or negative using ternary operator.
+8. Write a typescript which defines a variable to hold the age of a candidate for voting.  Check using if condition and determine the candidate is eligible for voting or not.
+9. Write a function to find the largest of two numbers.
+10. Write a function to find the smallest of two numbers.
+11. Write a function to determine the number is positive, zero or negative.
