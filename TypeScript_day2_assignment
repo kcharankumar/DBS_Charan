@@ -13,3 +13,4 @@
 13. Repeat the above program with student domain rather than banking domain.
 14. All the programs shown in the class should be typed and should see the result.
 15. Install angular and create a new app, start the server and see the output in browser.
+16. Modify the above two programs (Banking and Student) to have the interface in a seperate file and import it in the class file and use it and see the output.
