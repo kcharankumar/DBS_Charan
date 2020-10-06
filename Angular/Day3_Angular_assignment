@@ -1,0 +1,23 @@
+1. Create a new project and run the server and check the output in browser.
+2. Modify the app.component.html to display your name in header.
+3. Create a new component and display any image in it.  Copy your image under <Project>/assets folder and under img src use "../../assets/image.jpg"
+4. Perform +, -, *, / and % of two variables and display the result in html using one way data binding.
+5. As shown in the class, create a edit box for name and bind it with model as two way data binding and display /8*9-412512563//t+he value of model data. 
+6.  Take two string as first name and last name and display the full name using two way data binding.
+7. As shown in the class, demonstrate event binding.  On Click of a button display the message in console.log and in alert also.
+8. Have two edit boxes and a button.  First edit box should take the first name of the person.  Second edit box should take second name of the person.  On click of the button, concatenate both the names and display in alert box.
+9. Collect the details, Basic, HRA, DA, deductions and IT.  Computer the gross salary and net salary as given below and display the result in alert on click of a button. Name the button as My salary.
+Gross sal = Basic + HRA + DA
+Net salary = Gross sal - (Deductions + IT).
+10. Demonstrate disable a button using property binding.
+11. Display the months using ngFor.
+12. Have a array of names and display the names in a table with appropriate table header.
+13. Change the background color on click of a button using ngStyle.
+14. Use the following pipes and see the output.
+(1) uppercase
+(2) lowercase
+(3) currency:"USD" 
+(4) date:'d/M/y'
+(5) date:'shortTime'
+(6) json
+(7) percent
