@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This code will show the time.</p>
+
+<p id="time_para"></p>
+
+<script>
+var time_var=setInterval(function(){TimerFunc()},1000);
+
+function TimerFunc() {
+    var d = new Date();
+    document.getElementById("time_para").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+</body>
+</html>
