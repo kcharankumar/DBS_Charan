@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The toString() method converts a number to a string.</p>
+
+<p id="demo"></p>
+<p id="fixed_num"/>
+<p id="precision_num"/>
+
+<script>
+var x = 123.3456;
+
+document.getElementById("fixed_num").innerHTML = "Fixed numbers using toFixed() :<br/> " + x.toFixed(0) + "<br/>" +  x.toFixed(1) + "<br/>" +  x.toFixed(2);
+
+
+var y = 19.256;
+
+document.getElementById("precision_num").innerHTML = "Total number of numbers using toPrecision() : <br/> " + y.toPrecision() +  "<br/>" + y.toPrecision(2) + "<br/>" + y.toPrecision(3)+ "<br/>" + y.toPrecision(4);
+ 
+var str = "200.234";
+var num =  parseInt(str);
+alert ("parseInt() parses the number in a string : " + num); 
+
+var str = "200.3245";
+var num1 =  parseFloat(str);
+alert ("parseFloat() parses the floating number in a string : " + num1 	); 
+  
+</script>
+</body>
+</html>

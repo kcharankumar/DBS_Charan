@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<p>Perfoming the Maths operations of Java script</p>
+
+<input onclick="Math_ops()" type="button" value = "Maths Operations"/>
+
+<p id="maths"></p>
+
+<script>
+ function Math_ops()
+ {
+ 
+	 var random_num = Math.random() * 10;
+	 var min_num = Math.min (100,200,5,400, 35);
+	 var max_num = Math.max (100,200,5,400, 35);
+	 var round_num = Math.round (47.36);
+	 var ciel_num = Math.ceil (4.2);
+	 var floor_num = Math.floor (4.2);
+	 
+	 document.getElementById("maths").innerHTML = "Random number between 0 to 10 : " + random_num + "<br/>" +
+	 "Minimum of 100, 200, 5, 400 & 35 is    "+  min_num + "<br/>" +
+	 "Maximum of 100, 200, 5, 400 & 35 is    "+  max_num + "<br/>" +
+	 "Rounded value of 47.66 is    " + round_num + "<br/>" +
+	 "Ceiling value of 4.2 is    " + ciel_num + "<br/>" +
+	 "Floor value of 4.2 is     " + floor_num + "<br/>";
+ }
+ 
+ 
+ </script>
+
+</body>
+</html>

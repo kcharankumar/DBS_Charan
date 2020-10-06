@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Checks the age and returns the voting status</p>
+
+<button onclick="VotingStatus()">Click here</button>
+
+<p id="vote"></p>
+
+<script>
+function VotingStatus() { 
+	var name = prompt ("Enter your name :");
+    if (name == "") {
+        status = "Sorry..You have not entered any name..";
+    } else {
+        status = "Hello "+name + " and welcome";
+    }
+    document.getElementById("vote").innerHTML = status;
+}
+</script>
+
+</body>
+</html>

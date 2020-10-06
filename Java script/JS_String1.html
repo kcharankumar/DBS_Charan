@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> Length of the string is : </p>
+<p id="strlen"></p>
+ 
+<script>
+var str="I am learning java script";
+document.getElementById("strlen").innerHTML = str.length;
+
+var str1 = str.charAt(2);
+
+var str2 = str.concat (" From  Charan");
+alert ("Concatenated string is : " + str2);
+
+var str3 =str2.replace ("Charan", "John");
+alert ("Replaced string is : " + str3);
+
+var str4 = str2.substr (13, 12);
+alert ("Substring is : " + str4);
+
+
+
+</script>
+
+</body>
+</html>

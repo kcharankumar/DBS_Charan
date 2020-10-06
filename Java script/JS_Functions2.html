@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This example has a function which takes 1000 as basic, 500 as hra, 500 as da and 600 as the deductions and returns the total salary. Final salary is 1000 + 500 + 500 - 600 </p>
+
+<p> Computed salary is : </p>
+<p id="salary"></p>
+
+<script>
+function ComputeSalary(basic, hra, da, deductions ) {
+    
+	var gross_salary = basic + hra + da;
+	var total_salary = gross_salary - deductions;
+	return total_salary;
+}
+
+document.getElementById("salary").innerHTML = ComputeSalary(1000, 500, 500, 600);
+</script>
+
+</body>
+</html>

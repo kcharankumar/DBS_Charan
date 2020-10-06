@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Evaluates the condition (9 > 5) and (5 > 9) returns the boolean value</p>
+
+<button onclick="BooleanDisplay()">Click on me!</button>
+
+<p id="bool"></p>
+<p id="bool1"></p>
+
+
+<script>
+function BooleanDisplay() {
+     
+    document.getElementById("bool").innerHTML = Boolean(9 > 5);
+	document.getElementById("bool1").innerHTML = Boolean(5 > 9);
+}
+</script>
+
+</body>
+</html>

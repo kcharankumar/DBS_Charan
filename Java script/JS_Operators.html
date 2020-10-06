@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Perfoming the operations of Java script</p>
+
+<button onclick="Ops()">Operations</button>
+
+<p id="result"></p>
+
+<script>
+function Ops() {
+var x = 5;
+var y = 20;
+
+var z1 = x + y;
+var z2 = x - y;
+var z3 = x * y;
+var z4 = x / y;
+
+var z5 = 21 % x;
+var z6 = ++x;
+var z7 = x++;
+var z8 = --x;
+
+y += 5;
+
+y -= 10;
+
+document.getElementById("result").innerHTML = z1 + "<br/>"+
+											   z2 + "<br/>"+
+											   z3 + "<br/>"+
+											   z4 + "<br/>"+
+											   z5 + "<br/>"+
+											   z6 + "<br/>"+
+											   z7 + "<br/>"+											   
+											   z8 + "<br/>"+
+											   y + "<br/>";
+}
+</script>
+
+</body>
+</html>

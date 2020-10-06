@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Loop through the array and display the result...</p>
+
+<button onclick="ArrayDisplay()">Click on me</button>
+
+<p> Array is sorted </p>
+<p id="ArrDispl"></p>
+<p> Reversed the elements of the array </p>
+<p id="Rev_ArrDispl"></p>
+
+<script>
+function ArrayDisplay() {
+    var index;
+    var text = "<ul>";
+    var cities = ["San Francisco", "New York", "New Jersey", "Dallas"];
+	cities.sort();
+    for (index = 0; index < cities.length; index++) {
+        text += "<li>" + cities[index] + "</li>";
+    }
+    text += "</ul>";
+    document.getElementById("ArrDispl").innerHTML = text;
+	
+	
+	
+	cities.reverse();	
+	text = "<ul>"; 
+    for (index = 0; index < cities.length; index++) {
+        text += "<li>" + cities[index] + "</li>";
+    }
+    text += "</ul>";
+	document.getElementById("Rev_ArrDispl").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
