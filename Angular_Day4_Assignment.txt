@@ -1,0 +1,10 @@
+1. Create a service to get today's date.
+2. Create a service to return current time.
+3. Create a service to return only the date in dd/mm/yyyy format.
+4. Modify the above programs to display today's date, current time and only date in the given format only after clicking a push button.  Have 3 buttons.  On click of each button, it should display as required.
+5. Create a service to perform database operations like insert, update, delete and display all operations.  You can create seperate functions for each of the operation.
+6. Create the service for maths operations like Addition, subtraction, multiplication and division and modulus.  Have 5 functions in this service.  It takes two parameters and returns the result.  Display the result on html.
+7. Modify the above program by taking the input from the user using edit boxes.
+8. On click of a button in the parent, send a message from parent to child. The message is "This is the message from parent".
+9. Have one edit box in the parent.  On change of text in the edit box, send this message to the child using @Input()
+10. Have a button in the child component and on click of this button, send a message from child to parent using @Output and EventEmitter..
