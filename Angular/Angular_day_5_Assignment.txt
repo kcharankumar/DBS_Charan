@@ -1,0 +1,17 @@
+1. Create 3 router links Home, Theatre, movies.  In home page, display information about your site.  In Theatre, show all the theatres and the movies in that theatre.  Have a dropdown which has list of theatres, based on selection show only the selected theatre.  By default all the theatres should be shown. In Movies page, show all the movies and the movie in the theatre.  Have a dropbox at the top of the screen to choose the movie.  On selection of movie, display the information about the movie and in which theatres this movie is being shown.  By default all the movies should be shown.  Based on selection, corresponding movie should be shown.
+
+2. Have the routing links for Employee    Products     Training.
+Create a parameterized routing app, pass the employee id to the component from the main component.  Based on the employee id, display their details. Employee data should contain, id, name, dept and designation.  If no data is passed then information about all the employees should be displayed in a table format.    When Products menu is clicked then display all the products of the company.  Choose the kind of product you want to display.  It can be cars, electronics..etc., When Training menu is clicked then display all the information on training being offered.
+
+3.  Create a route link for College    Engineering college studies    Students.
+On click of college, display information about college,  On click on Engineering college  display information about semester and subjects and the faculty members and for students menu you can pass the student id.  Based on id, display the information about that student.  If no id is sent then display all the student information in a table.
+
+4. Read train_reservation.json from http service and display the result in a table.  Write the appropriate header for the table columns.
+
+5. Read Movie.json file and display the file content in a table.  This file will have the fields.
+1. Movie ID
+2. Movie Name
+3. Theme
+4. IMDB Rating.
+
+6. Modify the above program to filter based on the movie name.  If the user gives movie name, only that movie name should be displayed.
