@@ -15,3 +15,5 @@ On click of college, display information about college,  On click on Engineering
 4. IMDB Rating.
 
 6. Modify the above program to filter based on the movie name.  If the user gives movie name, only that movie name should be displayed.
+
+7. Modify all the above assignments and make it visually appealing with appropriate background images, colors and fonts.  Try to provide professional edge to your UI.
