@@ -1,0 +1,18 @@
+
+1. Display the transaction of medicines purchased by customers in a medical shop.  Display the following fields: 
+
+1. Transaction ID.
+2. Date (Date and time in the format dd/mm/yyyy hh:mm:ss AM/PM)
+3. Customer name.
+4. Medicines purchased. --> Initially you can have only one medicine.  Later, you can modify it to have multiple medicines purchased by the customer.  
+5. Amount.
+
+Display them in a table.  You should be able to sort on the column name.  Provide a spin control for each column so that you can sort the field in ascending and descending order.  (Hint : You can use MatSortModule of Angular).
+
+1a.  All the developed screens should be visually appealing.  Should have wireframe first and then only have to develop on the system.  It should have a professional look visually. 
+
+2. Modify the above program to have edit boxes on top of each column.  It is used for filtering.  Based on the entered data, table data should be filtered.  This means, if the user enters the customer name as "Rajesh" then the table should display the data for Rajesh.  If the user enters today's date then in the date filter column above date field then all the transactions of today should be displayed.
+
+3. Develop a login screen.  If the user enters valid User ID and password then display an alert box saying valid user else display as invalid user.  Also have a link for forgot password.  Develop Forgot password form.  On click on Forgot password of login screen, you can show forgot password screen. (Hint : You can use ngTemplate and ngIf to display the required component).  Forgot password will take email id from the user.  If it is a valid user id then send an password to the given email.  There are various ways you can send the email from Angular.  You can refer URL : https://www.npmjs.com/package/emailjs.
+
+4. Create a class named User. It will have userid and password.  Have the list of user ids and passwords be in a json file.  Read the json file and store the entire data in the array of User object.   After the user enters the user id and password, you should check the array of User objects and validate whether the user has entered valid user or not.  After entering the valid user details display the dashboard of the user.  We have two types of users.  Admin User and customer.  Admin user dashboard will display all the transactions of all the cusomters.  If the customer details are entered in the login form then only the transactions of that particular customer will be displayed.  You can follow the fields for this table as given in the problem 1.  Display the appropriate logo on the left top corner of the screen.  Also have the logout link.  On click of this link, user should be redirected to login screen.
