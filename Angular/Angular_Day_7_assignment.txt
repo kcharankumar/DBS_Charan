@@ -1,0 +1,10 @@
+1. Create a new function to check whether the given number is even or odd.  And write a test case to check whether it is working fine with even data and odd data.
+
+2. Write a function to find the factorial of a number.  Write a test case to check correct output the factorial function is giving.  If 5 is passed to the function, 120 should be returned.  Check for 2 to 3 samples of data. Check for negative numbers and zero also and see how your function is working.  If there is an error then code did not handle for these conditions.  Now modify your code and with multiple data verify the code is working fine.
+3. Write a divide().  This function takes 2 parameters and returns the result.  Also have a check that division by zero returns 0.  Write the testcases to cover all the branches of the code.  Means to say, pass 0 also as the second parameter and see whether you code is handling.  Pass multiple data and check it works fine.
+
+4. Define the parameters of the class for insurance domain in ts file.  Set the value in the constructor.  Write a testcase to verify the proper data is set in the class or not.
+
+5. Create a button in html file.  On click of a button the insurance domain class attributes are set.  Write a testcases to click a button and verify that class attributes are being set on click of button.
+
+6. Create a service and provide database operations functionalities like insert, update, delete and select.  Set the value of a class varaible based on the function executed and verify it in the test case.  Modify each of the function so that operation is done on files.  For example, insert() will take what text will be written into a file and returns whether the data is inserted into a file successfully or not.  Write a unit testcase to check whether the data is written into a file or not by sending the required data to the insert().   In the insert(), have the verification logic to see the data is written into the file properly or not.
