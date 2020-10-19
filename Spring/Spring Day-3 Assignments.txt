@@ -1,0 +1,6 @@
+Assignments
+1. Write Spring MVC code to accept your name in the edit box and display Welcome, given user name.
+2. Write Spring MVC code, once the valid userid and password is entered then display the employee details in a table.  Employee details will have Empid, name, dept and designation.
+3. Pass employee salary details as part of URL.  Details are EmpID, Name, basic, hra, da, IT and deducations.  Calculate the gross salary and net salary and display the details only if the valid Employee id is given.  If it is invalid Employee id, display the details in another page as invalid employee id is passed.
+4. Write Spring MVC code to accept Insurance domain details and add them in the data structure.  User can enter multiple records and can be inserted into this data structure.  This data structure should be static, so that it can support multiple threads.  Also have the option to display all the records of policy holders and their details.  
+5. Write Spring MVC code to perform CRUD operations on Student domain.  You can either use the text file for this operation or you can use any data struture as static variable.   As in static ArrayList<Student>.
