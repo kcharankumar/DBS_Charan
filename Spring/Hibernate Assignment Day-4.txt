@@ -1,0 +1,5 @@
+1. Write hibernate code to perform CRUD operations on Insurance Domain.  Table and class will have the fields Policy No, Name, Tenure, amount to be paid.  Initially write this in xml file and convert it into annotation using @Table, @id and @Column.
+2. Write hibernate code to perform one to one relationship of Student domain.  One student will have one address.  Choose the student and address table fields appropriately.  Use annotation @OneToOne for this.
+3. Write hibernate code to demonstrate one to many relationship on Student domain.  One college can have many students.  Use annotation for this.
+4. Write hibernate code to demonstrate many to many relationships on student and teacher domain.  One student can have many teachers and one teacher can teach many students.
+5. Write hibernate code to demonstrate criteria and restrictionson Train reservation domain.  Display all the passengers whose age is between 25 to 45.  Choose the passenger fields appropriately.  Use annotation only.
