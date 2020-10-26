@@ -1,0 +1,8 @@
+Angular.
+1. Develop an angular application for railway reservation.  It should have the 3 routes.  First route is the is general or the first page.  
+ It should have corosoul in the first page and general information about railyways and facilities of this page.  Second route should have the information about all the trains.  This should be displayed in a table.  This page should have an edit box on top of the table.  This edit box can take the train number.  Based on the train number entered, data in the table should get filtered.  Third route should have the passenger information.  All the passengers should be displayed in this route.  This page also has the edit box which takes the passenger id.  When nothing is entered, it will display all the passengers in the table.  When any passenger id is enetered, the table data will get filtered based on the passenger id.
+
+
+Spring
+1. Develop a spring boot application to perform the CRUD operation on Employee data.  
+ 
