@@ -1,0 +1,12 @@
+Spring REST Assignments.
+1. Develop REST application which takes the user id and password and returns back whether it is a valid user or not.  
+2. Develop REST application which takes the Electricity meter number and will display the details about the electricity consumed in that month.  Decide on the fields to be returned back to the user.  A static datastructure can be maintained with the electricity meter no. Create a class with electricity meter no as the id and details based on it.  Also include the fields monthly consumed units, cost per unit and how much customer has to pay and when is the laste date pay.  Return this data in json format.  Once all the assignments are done, you can convert this program to get the data from the database rather than getting the data from static data structure.
+3. Write a REST application to take the first name and last name and return full name.
+4. Write the REST application for Library.  When /display_all is given then display all the books in the library.  Decide the attributes for the library books.  When /display and the book no is given then display only the book asked for.  Also perform Insert, update and delete operation on books of the library.  Initially static data structure can be used for database.  Once all the assigments are done, this program should be converted to perform CRUD operations on the database.  Connect REST with hibernate to perform these operations.
+
+5. Write the REST application to validate the Login credentials (UserId and Password) using POST method.    REST Controller will have 3 users.  Client data is validated with this data and will respond as a valid user or invalid user to the client.  Test this application using Postman.
+
+6. Modify the above program by integrating Spring and Hibernate.  Rather than taking the USER Login credentials from Controller, this program should take the data from table USER.   After validation, program will return as Valid User or Invalid user based on the input given.   Test this program using POSTMAN with POST Method.  
+
+7. Modify the above program by integrating spring and Angular.  Angular will have a login form.  It will send the login credentials to the spring REST program.  Angular will display the result based on the response received from the Spring REST program.
+ 
