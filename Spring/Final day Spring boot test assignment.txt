@@ -1,0 +1,3 @@
+1. Write the spring boot for login application.  Database will have USER table and it will have the list of userids and passwords.  Users credentails will be validates against this data.  Data to the controller should be sent using POST method.  This application should be tested using POSTMAN.
+
+2. Write a spring boot application to perform CRUD operations on Insurance domain.  Looking at the real time application, you can decide the fields.  Insert, Update, Delete and display all functionality data should reflect in the database table.
