@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-image: url("css-image.jpg");
+}
+
+h1
+{
+  text-align:center;
+}
+</style>
+</head>
+<body>
+
+<h1> MY CSS page!</h1>
+<p>Here the image is smaller then the image is repeated.  If you want to stop the repetition of this image on the screen then you can use the property  <b> background-repeat: no-repeat;</b></p>
+
+</body>
+</html>
